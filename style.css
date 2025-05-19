@@ -201,3 +201,148 @@ a {
   text-align: center;
   margin-top: 15px;
 }
+
+/* Mobile phones (max-width: 480px) */
+@media (max-width: 480px) {
+  .header {
+    padding: 0 10px;
+    height: 60px;
+  }
+
+  .nav {
+    flex-wrap: wrap;
+    max-width: 100%;
+  }
+
+  .nav_logo {
+    font-size: 36px;
+  }
+
+  .nav_item {
+    width: 100%;
+    justify-content: center;
+    column-gap: 15px;
+    margin-top: 5px;
+  }
+
+  .button {
+    padding: 8px 20px;
+    font-size: 14px;
+    border-radius: 8px;
+  }
+
+  .form_container {
+    max-width: 90%;
+    padding: 20px;
+    transform: translate(-50%, -50%) scale(1);
+  }
+
+  .form_container h2 {
+    font-size: 28px;
+  }
+
+  .input_box {
+    height: 45px;
+  }
+
+  .input_box input {
+    padding: 0 25px;
+    font-size: 14px;
+  }
+
+  .checkbox label,
+  .form_container a,
+  .login_signup {
+    font-size: 14px;
+  }
+
+  .form_container .button {
+    padding: 12px 0;
+    font-size: 16px;
+  }
+}
+
+/* Tablets (481px to 768px) */
+@media (min-width: 481px) and (max-width: 768px) {
+  .header {
+    padding: 0 15px;
+    height: 70px;
+  }
+
+  .nav_logo {
+    font-size: 42px;
+  }
+
+  .nav_item {
+    column-gap: 20px;
+  }
+
+  .button {
+    padding: 9px 35px;
+    font-size: 16px;
+  }
+
+  .form_container {
+    max-width: 400px;
+    padding: 25px;
+  }
+
+  .form_container h2 {
+    font-size: 32px;
+  }
+
+  .input_box input {
+    font-size: 15px;
+  }
+
+  .checkbox label,
+  .form_container a,
+  .login_signup {
+    font-size: 16px;
+  }
+
+  .form_container .button {
+    font-size: 18px;
+  }
+}
+
+/* Desktop / Laptops (769px and above) */
+@media (min-width: 769px) {
+  /* You can keep your current styles or slightly adjust if needed */
+  .header {
+    padding: 0 20px;
+    height: 80px;
+  }
+
+  .nav_logo {
+    font-size: 50px;
+  }
+
+  .button {
+    padding: 10px 50px;
+    font-size: larger;
+  }
+
+  .form_container {
+    max-width: 500px;
+    padding: 30px;
+  }
+
+  .form_container h2 {
+    font-size: 35px;
+  }
+
+  .input_box input {
+    font-size: 16px;
+  }
+
+  .checkbox label,
+  .form_container a,
+  .login_signup {
+    font-size: 18px;
+  }
+
+  .form_container .button {
+    font-size: 20px;
+  }
+}
